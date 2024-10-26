@@ -7,7 +7,7 @@ class NotesViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const SafeArea(
+    return SafeArea(
       child: Padding(
         padding: EdgeInsets.all(24.0),
         child: Column(
