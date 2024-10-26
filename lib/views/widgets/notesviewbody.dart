@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:note_app_with_tharwat/views/widgets/noteitem.dart';
 import 'package:note_app_with_tharwat/views/widgets/custom_appbar.dart';
 
 class NotesViewBody extends StatelessWidget {
@@ -6,15 +7,17 @@ class NotesViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
+    return const SafeArea(
       child: Padding(
-        padding: const EdgeInsets.all(24.0),
+        padding:  EdgeInsets.all(24.0),
         child: Column(
           children: [
             CustomAppBar(),
+            NoteItem()
           ],
         ),
       ),
     );
   }
 }
+
