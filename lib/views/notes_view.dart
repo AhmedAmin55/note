@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:note_app_with_tharwat/views/widgets/notesviewbody.dart';
+import 'package:note_app_with_tharwat/views/widgets/addnotebottomsheet.dart';
 
 class NotesView extends StatelessWidget {
   const NotesView({super.key});
@@ -20,14 +21,5 @@ class NotesView extends StatelessWidget {
       ),
       body: const NotesViewBody(),
     );
-  }
-}
-
-class AddNoteBottomSheet extends StatelessWidget {
-  const AddNoteBottomSheet({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
   }
 }
